@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INI KATALOG</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			margin: 0 0 !important;
+			padding: 0 0 !important;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.header{
+			width: 100%;
+			padding-top:15px;
+			padding-bottom:15px;
+			background-color: white;
+			border-bottom: 1px solid lightgray;
+			/*box-shadow: 0 0px 2px black;*/
+		}
+		.container{
+			max-width: 1024px;
+			margin: 0 auto;
+		}
+		.menu{
+			list-style: none;
+		}
+		.menu .item-menu{
+			display: inline-flex;
+			margin: 0 15px;
+		}
+		.menu .item-menu a{
+			color: #6a6a6a;
+			text-decoration: none;
+			font-weight: bold;
+			transition: 0.2s ease-in-out;
+		}
+		.menu .item-menu:hover a{
+			color: #e84118;
+		}
+		.image1{
+			background-image: url(assets/bg2.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 450px;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.judul{
+			font-family: 'Fredoka One', cursive;
+			color: #393939;
+		}
+		.produk-row{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 2rem;
+		}
+		.produk-wrapper{
+			flex: 1;
+			box-shadow: 0 0 5px dimgray;
+			border: 1px solid gray;
+			border-radius: 8px;
+			margin:0 10px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		.gambar-produk{
+			width: 100%;
+			height: 250px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			transition: 0.2s;
+		}
+		.judul-produk{
+			font-weight: bold;
+			text-align: center;
+		}
+		.produk-wrapper:hover .gambar-produk{
+			filter: brightness(1.2);
+			background-size: 110%;
+		}
+		.produk-wrapper *{
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<ul class="menu">
+			<li class="item-menu"><a href="#home">Home</a></li>
+			<li class="item-menu"><a href="#produk">Produk</a></li>
+			<li class="item-menu"><a href="#pemesanan">Pemesanan</a></li>
+		</ul>
+	</div>
+</div>
+<div id="home">
+	<div class="image1"></div>
+</div>
+<div id="produk" class="container">
+	<div style="width: 100%;text-align: center;">
+		<h1 class="judul">Produk</h1>
+	</div>
+	<div class="produk-row">
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju1.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju2.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju3.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju4.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+	</div>
+	<div class="produk-row">
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju5.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju6.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju7.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+		<a class="produk-wrapper" href="https://api.whatsapp.com/send?phone=6285812168079&text=orderbaju#1" target="_blank">
+			<div class="gambar-produk" style="background-image: url(assets/produk/baju8.jpg)"></div>
+			<h3 class="judul-produk">Judul Produk</h3>
+		</a>
+	</div>
+</div>
+<div id="pemesanan" class="container">
+	<div style="width: 100%;text-align: center;">
+		<h1 class="judul">Pemesanan</h1>
+	</div>
+</div>
+</body>
+</html>
